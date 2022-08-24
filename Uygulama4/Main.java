@@ -9,12 +9,13 @@ public class Main{
         Student [] students ={student1,student2,student3};
         Islem.isimleriYazdir(students);
         Islem.ortalamaBul(students);
-        System.out.println("---------------");
+        
 
         Akademisyen akademisyen1 = new Akademisyen("Mahmut", "Hoca", "CENG");
         Course mat =new Course("Matematik", "MAT102", akademisyen1);
 
         System.out.println(mat.getAkademisyen().getBolum());
+        
         
     }
 }
