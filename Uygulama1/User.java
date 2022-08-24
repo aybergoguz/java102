@@ -10,6 +10,12 @@ public class User{
         counter++;
         
     }
+    static {
+
+        int random = (int) (Math.random() * 10);
+        System.out.println("Random Sayi : \t" + random);
+        counter=random;
+    }
 
     
 }
