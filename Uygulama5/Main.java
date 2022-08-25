@@ -6,7 +6,8 @@ public class Main{
 
         LabAsistani labCalisan1 = new LabAsistani("muti", "432", "a@b.co", "CENG", "ASA", "02:00");
 
-        
+        labCalisan1.giris("12:00");
+        labCalisan1.giris();
     
     }
 }

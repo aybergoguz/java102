@@ -10,5 +10,11 @@ public class LabAsistani extends Asistan{
         System.out.println(this.getAdSoyad() + " lab'a girdi.");
     }
 
+    @Override
+    public void giris(){
+
+        System.out.println(this.getAdSoyad() +" lab asistani geldi.");
+    }
+
 
 }

@@ -33,6 +33,10 @@ public class Calisan{
         System.out.println(this.adSoyad + " isimli calisan giris yapti.");
     }
 
+    public void giris(String girisSaati){
+        System.out.println(this.adSoyad + "  " + girisSaati + " saatinde giris yapti.");
+    }
+
     public void cikis(){
         System.out.println(this.adSoyad + " isimli calisan cikis yapti.");
     }
